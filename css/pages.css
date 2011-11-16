@@ -118,6 +118,11 @@ h3.title /* Comment title */ {
   margin: 0;
 }
 
+#content h2 {
+	background: url(../images/h2-bg.png) left bottom no-repeat;
+	padding-bottom: 12px;
+}
+
 tr.even /* Some tables have rows marked even or odd. */ {
   /* background-color: #eee; */ /* Drupal core uses a #eee background */
 }
@@ -226,4 +231,26 @@ ul.links li {
  * Page bottom
  */
 .region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.field-name-field-featured-image {
+	float: left;
+	margin: 0 20px 10px 0;
 }
