@@ -49,10 +49,15 @@ body {
   float: left; /* LTR */
   margin: 0;
   padding: 0;
+  height: 100px;
+  position: relative;
 }
 
 #logo img {
   vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 #name-and-slogan /* Wrapper for website name and slogan */ {
