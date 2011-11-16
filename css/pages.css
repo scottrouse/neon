@@ -120,7 +120,7 @@ h2.block-title, /* Block title */
 h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
 h3.title /* Comment title */ {
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 
 #content h2 {
@@ -246,13 +246,31 @@ ul.links li {
 
 
 
+.front h1#page-title {
+	display: none;
+}
+
+.front #content h2 {
+	background: none;
+	padding: 0;
+	color: #4196AE;
+}
+
+.front .region-sidebar-second {
+	background: url(../images/front-section-bg.png) left 60px no-repeat;
+	padding-top: 20px;
+}
+
+.front #content img {
+	max-width: 100%;
+}
 
 
 
-
-
-
-
+.node-article .field-name-field-image {
+	float: right;
+	margin: 0 0 10px 20px;
+}
 
 
 

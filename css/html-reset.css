@@ -275,6 +275,8 @@ a:link {
 }
 
 a:visited {
+	color: #4196AE;
+	text-decoration: none;
 }
 
 a:hover,
