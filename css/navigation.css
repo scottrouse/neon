@@ -58,3 +58,25 @@ li a.active {
  */
 .block-menu-block {
 }
+
+
+.region-header ul.menu {
+	margin: 0;
+	padding: 0;
+}
+
+.region-header ul.menu li {
+	list-style: none;
+	list-style-type: none;
+	list-style-image: none;
+	float: left;
+}
+
+.region-header ul.menu li a {
+	padding: 0 10px;
+	border-right: 1px solid #666666;
+}
+
+.region-header ul.menu li.last a {
+	border-right: none;
+}
