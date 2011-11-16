@@ -154,3 +154,24 @@ h2.block-title /* Block title */ {
 #block-menu-menu-footer-menu a:hover {
 	text-decoration: underline;
 }
+
+
+
+
+#block-views-testimonials-block .views-row {
+	margin-bottom: 50px;
+	font-size: 0.9em;
+}
+
+#block-views-testimonials-block h2.block-title {
+	color: #4196AE;
+	font-size: 1.3em;
+}
+
+#block-views-testimonials-block .field-name-body p:last-child {
+	margin-bottom: 0;
+}
+
+#block-views-testimonials-block .node-title {
+	display: none;
+}
