@@ -113,7 +113,7 @@
     <?php print render($page['header']); ?>
 
   </div></div><!-- /.section, /#header -->
-
+<div id="full-width-main">
   <div id="main-wrapper"><div id="main" class="clearfix<?php if ($main_menu || $page['navigation']) { print ' with-navigation'; } ?>">
 
     <div id="content" class="column"><div class="section">
@@ -163,9 +163,12 @@
     <?php print render($page['sidebar_second']); ?>
 
   </div></div><!-- /#main, /#main-wrapper -->
+  </div><!-- #full-width-main -->
 
   <?php print render($page['footer']); ?>
 
 </div></div><!-- /#page, /#page-wrapper -->
 
-<?php print render($page['bottom']); ?>
+<div id="full-width-bottom">
+	<?php print render($page['bottom']); ?>
+</div>
