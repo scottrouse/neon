@@ -185,6 +185,10 @@ body {
   position: relative;
 }
 
+#full-width-bottom {
+	min-height: 150px;
+}
+
 /*
  * Prevent overflowing content
  */
