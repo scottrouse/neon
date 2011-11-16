@@ -68,9 +68,6 @@ h2.block-title /* Block title */ {
 #block-profile-author-information /* "Author information" block for the profile of the page's author */ {
 }
 
-#block-search-form /* "Search form" block */ {
-}
-
 #block-shortcut-shortcuts /* "Shortcuts" block */ {
 }
 
@@ -105,4 +102,55 @@ h2.block-title /* Block title */ {
 }
 
 #block-user-online /* "Who's online" block for a list of the online users */ {
+}
+
+
+#block-block-1 /* Z2 Systems Block */ {
+	padding-left: 90px;
+	background: url(../images/z2-logo.png) left center no-repeat;
+	min-height: 53px;
+	padding-top: 20px;
+}
+
+#block-block-1 h4, #block-block-1 p {
+	margin: 0;
+}
+
+#block-block-1 h4 {
+	font-size: 1.6em;
+	font-weight: normal;
+}
+
+
+#block-search-form /* "Search form" block */ {
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+
+
+#block-block-2 /* Copyright Statement Block */ {
+	position: absolute;
+	right: 10px;
+	top: 40px;
+}
+
+
+#block-menu-menu-footer-menu /* Footer Menu */ {
+	position: absolute;
+	right: 300px;
+	top: 20px;
+}
+
+#block-menu-menu-footer-menu ul li {
+	list-style: none;
+}
+
+#block-menu-menu-footer-menu a {
+	text-decoration: none;
+	color: #666666;
+}
+
+#block-menu-menu-footer-menu a:hover {
+	text-decoration: underline;
 }
