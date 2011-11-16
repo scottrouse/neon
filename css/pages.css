@@ -259,6 +259,7 @@ ul.links li {
 .front .region-sidebar-second {
 	background: url(../images/front-section-bg.png) left 60px no-repeat;
 	padding-top: 20px;
+	min-height: 430px;
 }
 
 .front #content img {
