@@ -128,8 +128,15 @@ h2.block-title /* Block title */ {
 	top: 20px;
 }
 
+#block-search-form input {
+	font-size: 1.2em;
+	color: #666666;
+	padding: 4px;
+}
+
 #block-search-form input.form-text {
-	width: 170px;
+	text-align: right;
+	border: 1px solid #E4E4E4;
 }
 
 
