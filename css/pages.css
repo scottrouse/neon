@@ -126,6 +126,7 @@ h3.title /* Comment title */ {
 #content h2 {
 	background: url(../images/h2-bg.png) left bottom no-repeat;
 	padding-bottom: 12px;
+	clear: both;
 }
 
 tr.even /* Some tables have rows marked even or odd. */ {
