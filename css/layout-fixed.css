@@ -22,12 +22,14 @@
 body {
 }
 
+/*
 #page-wrapper,
 .region-bottom {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
+*/
 
 #page {
 }
@@ -39,9 +41,16 @@ body {
 }
 
 #header .section {
+	position: relative;
+	margin-left: auto;
+  margin-right: auto;
+  width: 960px;
 }
 
 .region-header {
+	position: absolute;
+	right: 0px;
+	
 }
 
 /*
@@ -49,6 +58,9 @@ body {
  */
 #main-wrapper {
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
 }
 
 #main {
@@ -153,7 +165,10 @@ body {
 /*
  * Page bottom
  */
-.region-bottom /* See also the #page-wrapper declaration above that this div shares. */ {
+.region-bottom {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
 }
 
 /*
