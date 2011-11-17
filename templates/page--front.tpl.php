@@ -114,7 +114,11 @@
 
   </div></div><!-- /.section, /#header -->
 <div id="full-width-main">
-
+<div id="carousel-wrapper">
+	<div id="carousel-content">
+		<?php print render($page['carousel']); ?>
+	</div>
+</div>
   <div id="main-wrapper"><div id="main" class="clearfix<?php if ($main_menu || $page['navigation']) { print ' with-navigation'; } ?>">
 
     <div id="content" class="column"><div class="section">

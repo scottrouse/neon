@@ -279,3 +279,21 @@ ul.links li {
 	float: left;
 	margin: 0 20px 10px 0;
 }
+
+
+
+#carousel-content {
+	color: #FFFFFF;
+	overflow: hidden;
+}
+
+#carousel-content a {
+	color: #FFFFFF;
+}
+
+#carousel-content .jcarousel-clip {
+	width: 960px;
+	height: 215px;
+}
+
+#carousel-content

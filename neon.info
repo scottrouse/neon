@@ -83,6 +83,7 @@ regions[help]           = Help
 regions[sidebar_first]  = First sidebar
 regions[sidebar_second] = Second sidebar
 regions[navigation]     = Navigation bar
+regions[carousel]				= Carousel
 regions[highlighted]    = Highlighted
 regions[content]        = Content
 regions[header]         = Header
