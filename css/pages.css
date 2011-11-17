@@ -275,9 +275,14 @@ ul.links li {
 
 
 
-.field-name-field-featured-image {
+.page-image-left .field-name-field-featured-image {
 	float: left;
 	margin: 0 20px 10px 0;
+}
+
+.page-image-right .field-name-field-featured-image {
+	float: right;
+	margin: 0 0 10px 20px;
 }
 
 
