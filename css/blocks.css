@@ -156,6 +156,8 @@ h2.block-title /* Block title */ {
 
 #block-menu-block-1 ul li {
 	list-style: none;
+	list-style-type: none;
+	list-style-image: none;
 }
 
 #block-menu-block-1 a {

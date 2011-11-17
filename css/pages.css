@@ -291,9 +291,8 @@ ul.links li {
 	color: #FFFFFF;
 }
 
-#carousel-content .jcarousel-clip {
+#carousel-content .jcarousel-clip, #carousel-content .jcarousel-item {
 	width: 960px;
 	height: 215px;
 }
 
-#carousel-content

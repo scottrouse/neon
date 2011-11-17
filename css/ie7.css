@@ -36,3 +36,12 @@ tr.odd th,
 tr.odd td {
   border-bottom: 1px solid #ccc; /* IE doesn't display borders on table rows */
 }
+
+
+#carousel-content ul.jcarousel-view--front-page-carousel--block {
+	
+}
+
+#carousel-content .jcarousel-clip {
+	display: block;
+}

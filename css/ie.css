@@ -1,0 +1,13 @@
+/**
+ * @file
+ * CSS targeted specifically for Internet Explorer for Windows.
+ *
+ * Any CSS in this file will apply to all versions of IE. You can
+ * target specific versions of IE by using conditional comments. See your
+ * sub-theme's .info file for an easy way to use them.
+ */
+
+
+#header {
+	background: url(../images/header-ie.png) bottom repeat-x;
+}
